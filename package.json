@@ -1,0 +1,28 @@
+{
+  "name": "expo-tools",
+  "version": "0.0.1",
+  "bin": {
+    "expo-tools": "src/index.ts"
+  },
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "@types/qrcode-terminal": "^0.12.0",
+    "bun-types": "^0.5.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^10.0.3",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "inquirer": "^8.2.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
